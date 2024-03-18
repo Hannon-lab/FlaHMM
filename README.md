@@ -5,7 +5,7 @@ FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila
 
 FlaHMM can be cloned from our GitHub repository using the following command
 ```
-git clone https://github.com/marianna-trapotsi/FlaHMM.git
+git clone https://github.com/Hannon-lab/FlaHMM.git
 ```
 
 To install all Python dependencies, we recommend creating a conda environment and install them using pip (or pip3, if applicable)
