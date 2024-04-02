@@ -48,7 +48,7 @@ For example:
 ```
 python FlaHMM.py --species Dmel.dm6 --bins 5 --threshold 0.025
 ```
-Results are saved in results folder and can be visualised with the Results_Visualisation.ipynb Jupyter notebook found in the [https://github.com/Hannon-lab/FlaHMM-supplement](supplementary repository).
+Results are saved in results folder and can be visualised with the Results_Visualisation.ipynb Jupyter notebook found in the [supplementary repository](https://github.com/Hannon-lab/FlaHMM-supplement).
 
 ### Optional: Preparing custom transposon annotations
 
