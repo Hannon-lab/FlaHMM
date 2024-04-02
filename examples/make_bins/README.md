@@ -2,9 +2,10 @@
 
 These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/De-novo_clusters
 
-Analysis to quantify genome-wide LTR/Gypsy content.
+Analysis to quantify genome-wide LTR/Gypsy content. Please note that [https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/hgLoadOut](hgLoadOut)) and bedtools has to be available in your PATH.
 
 ## Analysis steps
+
 To produce the output files, run the following scripts:
 
 ```

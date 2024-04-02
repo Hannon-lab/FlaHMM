@@ -26,9 +26,10 @@ FlaHMM has primarily been tested using hmmlearn v0.2.7. If needed, FlaHMM can al
 
 ### Downloading transposon annotations
 
-FlaHMM requires Gypsy transposon annotations across the target genomes. The easiest option will be to download our pre-computed annotations using the following command
+FlaHMM requires Gypsy transposon annotations across the target genomes. The easiest option will be to download our pre-computed annotations using the following command.
 
 ```
+cd FlaHMM
 wget https://content.cruk.cam.ac.uk/ghlab/Susanne/FlaHMM/bins.tar.gz
 tar xf bins.tar.gz
 ```
@@ -37,15 +38,17 @@ Alternatively, you can prepare custom transposon annotations using the instructi
 
 ### Running FlaHMM
 
-Go to scripts folder and run FlaHMM and define the following parameters:
-- Drosophila species to make predictions
-- bin size in kb (2.5, 5 or 10)
+To run FlaHMM, go to the FlaHMM directory and run FlaHMM.py with the following parameters:
+- Drosophila genome assembly to make predictions on
+- Bin size in kb (2.5, 5 or 10)
 - LTR/Gypsy threshold (0.025, 0.05, 0.075, 0.1, or 0.2)
+
+For example:
 
 ```
 python FlaHMM.py --species Dmel.dm6 --bins 5 --threshold 0.025
 ```
-Results are saved in results folder and can be visualised with the Results_Visualisation.ipynb jupyter notebook
+Results are saved in results folder and can be visualised with the Results_Visualisation.ipynb Jupyter notebook found in the [https://github.com/Hannon-lab/FlaHMM-supplement](supplementary repository).
 
 ### Optional: Preparing custom transposon annotations
 
