@@ -34,9 +34,7 @@ wget https://content.cruk.cam.ac.uk/ghlab/Susanne/FlaHMM/bins.tar.gz
 tar xf bins.tar.gz
 ```
 
-This files includes 193 genome assemblies for 119 species. All full list of all pre-processed genome assemblies is available [here](https://github.com/susbo/Drosophila_TE_libraries/blob/main/species_list.txt).
-
-Alternatively, you can prepare custom transposon annotations using the [instructions below](#optional-preparing-custom-transposon-annotations).
+This files includes 193 genome assemblies for 119 species. All full list of all pre-processed genome assemblies is available [here](data/precomputed_species_list.txt). Alternatively, you can prepare custom transposon annotations using the [instructions below](#optional-preparing-custom-transposon-annotations).
 
 ### Running FlaHMM
 
