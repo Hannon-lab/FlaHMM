@@ -36,7 +36,7 @@ The output is produced in the form of a tab-separated file representing
 2. Start coordinate
 3. End coordinate
 4. Number of overlapping bed intervals
-5. Length of bin (usually 100000)
+5. Length of bin
 6. Transposon coverage (within 0..1)
 
 Example output:
