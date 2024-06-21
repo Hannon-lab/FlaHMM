@@ -39,9 +39,9 @@ This files includes 193 genome assemblies for 119 species. All full list of all 
 ### Running FlaHMM
 
 To run FlaHMM, go to the FlaHMM directory and run FlaHMM.py with the following parameters:
-- Drosophila genome assembly to make predictions on
+- Drosophila genome assembly to make predictions on (e.g., Dmel.dm6, Dfic.GCF_018152265 or Dper.d101g; see a full list [here](data/precomputed_species_list.txt)).
 - Bin size in kb (2.5, 5 or 10)
-- LTR/Gypsy threshold (0.025, 0.05, 0.075, 0.1, or 0.2)
+- LTR/Gypsy threshold (0.025, 0.05, 0.075, 0.1 or 0.2)
 
 For example:
 
