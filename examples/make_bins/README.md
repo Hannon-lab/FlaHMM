@@ -16,7 +16,7 @@ To produce the BED-like files, run the following scripts:
 ```
 *Step 1 (only needed if using EDTA):* Restore the full contig names to `EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out`, since EDTA will cap them at a fixed number of characters. Please note that this step is only relevant if using EDTA de-novo annotation output and assumes that files named `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` are available.
 
-**Note if not using EDTA:** Omit this step and instead put the RepeatMasker output files into `01_fix_header/$species.$build.out`, where `$species` is the species and `$build` is the genome assembly. Any strings are valid as `$species.$build`, e.g., "Dmel.dm6" or "Dmelanogster.1".
+**Note if not using EDTA:** Omit this step and instead copy your RepeatMasker output files into `01_fix_header/$species.$build.out`, where `$species` may refer to the species and `$build` may refer to the genome assembly. However, any strings are valid as `$species.$build`, e.g., "Dmel.dm6" or "My_secret_species.1".
 
 ```
 . 02_tab.sh
