@@ -56,7 +56,7 @@ To run the FlaHMM tool you need to calculate transposon content for the genome o
 * examples/run_EDTA - Scripts/instructions to generate EDTA transposon libraries (optional)
 * examples/make_bins - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins from RepeatMasker output
 
-If you would like to use your own bins, put them into the bins directory and ensure they follow the following structure:
+If you would like to use your own input files, put your BED-like files into the `bins` directory and ensure they follow the following directory structure
 ```
 $ tree bins
 bins
@@ -72,12 +72,12 @@ bins
         └── Dmel.dm6.bed
 ```
 
-and that the BED-like files follow the structured defined [here](https://github.com/Hannon-lab/FlaHMM/tree/main/examples/make_bins#output)..
+and that the BED-like files have [the following structure](https://github.com/Hannon-lab/FlaHMM/tree/main/examples/make_bins#output).
 
 ### Citation
 
 If you find FlaHMM use, please consider citing it:
 
-FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila species using hidden Markov models
-Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv
+FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila species using hidden Markov models<br>
+Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv<br>
 *bioRxiv* 2024.05.14.592433; doi: [https://doi.org/10.1101/2024.05.14.592433](https://doi.org/10.1101/2024.05.14.592433)
