@@ -1,17 +1,22 @@
 # make_bins
 
-These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/De-novo_clusters
+These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/De-novo_clusters and describe how to calculate pre-processed BED-like files with Gypsy/LTR content to be used as input for FlaHMM.
 
-Analysis to quantify genome-wide LTR/Gypsy content. Please note that [hgLoadOut](https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/hgLoadOut) and bedtools has to be available in your PATH.
+Input: A RepeatMasker output file (.out) for the genome of interst.<br>
+Output: Two BED-like files (plus and minus strand) with LTR/Gypsy content per genomic bin.<br>
+
+**Requirements:** Please note that [hgLoadOut](https://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/hgLoadOut) and bedtools has to be available in your PATH.
 
 ## Analysis steps
 
-To produce the output files, run the following scripts:
+To produce the BED-like files, run the following scripts:
 
 ```
 . 01_fix_headers.sh
 ```
-*Step 1:* Restore the full contig names to `EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out`, since EDTA will cap them at a fixed number of characters.
+*Step 1:* Restore the full contig names to `EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out`, since EDTA will cap them at a fixed number of characters. Please note that this step is only relevant if using EDTA de-novo annotation output.
+
+To bypass this, simply put your raw RepeatMasker output files into `01_fix_header/$species.$build.out`, where `$species` is a string referring to the species name and `$build` is a strong referring to the genome assembly. There are no further format requirements and `01_fix_header/Drosophila_melanogaster.1.out` would be as valid as `01_fix_header/Dmel.dm6.out`.
 
 ```
 . 02_tab.sh
