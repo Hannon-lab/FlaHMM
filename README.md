@@ -1,5 +1,5 @@
 # FlaHMM 
-FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila
+FlaHMM: unistrand *flamenco*-like piRNA cluster prediction in *Drosophila*
 
 ### Installation
 
@@ -78,6 +78,6 @@ and ensure that the BED-like files have [the following format](https://github.co
 
 If you find FlaHMM use, please consider citing it:
 
-FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila species using hidden Markov models<br>
+FlaHMM: unistrand *flamenco*-like piRNA cluster prediction in *Drosophila* species using hidden Markov models<br>
 Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv<br>
 *bioRxiv* 2024.05.14.592433; doi: [https://doi.org/10.1101/2024.05.14.592433](https://doi.org/10.1101/2024.05.14.592433)
