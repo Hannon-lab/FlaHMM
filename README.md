@@ -39,7 +39,7 @@ This files includes 193 genome assemblies for 119 species. All full list of all 
 ### Running FlaHMM
 
 To run FlaHMM, go to the FlaHMM directory and run FlaHMM.py with the following parameters:
-- Drosophila genome assembly to make predictions on (e.g., Dmel.dm6, Dfic.GCF_018152265 or Dper.d101g; please find a full list [here](data/precomputed_species_list.txt)).
+- Drosophila species genome assembly to make predictions on (e.g., Dmel.dm6, Dfic.GCF_018152265 or Dper.d101g; please find a full list [here](data/precomputed_species_list.txt)).
 - Bin size in kb (2.5, 5 or 10)
 - LTR/Gypsy threshold (0.025, 0.05, 0.075, 0.1 or 0.2)
 
@@ -52,9 +52,9 @@ Results are saved in results folder and can be visualised with the Results_Visua
 
 ### Optional: Preparing custom transposon annotations
 
-To run the FlaHMM tool you need to prepare the transposon libraries (using EDTA) and calculate genome-wide transposon content. Detailed instructions can be found in:
-* examples/run_EDTA - Scripts/instructions to generate EDTA transposon libraries.
-* examples/make_bins - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins.
+To run the FlaHMM tool you need to calculate transposon content for the genome of interest using RepeatMasker. If no transposon library is present for your species of interest, you may wish to run EDTA to construct transposon libraries; alternatively, you could use RepBase annotations from a closely related species. Detailed instructions are found below:
+* examples/run_EDTA - Scripts/instructions to generate EDTA transposon libraries (optional)
+* examples/make_bins - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins from RepeatMasker output
 
 If you would like to use your own bins, put them into the bins directory and ensure they follow the following structure:
 ```
@@ -72,3 +72,12 @@ bins
         └── Dmel.dm6.bed
 ```
 
+### Citation
+
+If you find FlaHMM use, please consider citing it:
+
+FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila species using hidden Markov models
+
+Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv
+
+*bioRxiv* 2024.05.14.592433; doi: [https://doi.org/10.1101/2024.05.14.592433](https://doi.org/10.1101/2024.05.14.592433)
