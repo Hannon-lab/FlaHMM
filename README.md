@@ -56,7 +56,7 @@ To run the FlaHMM tool you need to calculate transposon content for the genome o
 * examples/run_EDTA - Scripts/instructions to generate EDTA transposon libraries (optional)
 * examples/make_bins - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins from RepeatMasker output
 
-If you would like to use your own input files, put your BED-like files into the `bins` directory and ensure they follow the following directory structure
+If you use your own BED-like input files, put them into the `bins` directory and ensure they follow the following directory structure
 ```
 $ tree bins
 bins
@@ -72,7 +72,7 @@ bins
         └── Dmel.dm6.bed
 ```
 
-and that the BED-like files have [the following structure](https://github.com/Hannon-lab/FlaHMM/tree/main/examples/make_bins#output).
+and ensure that the BED-like files have [the following format](https://github.com/Hannon-lab/FlaHMM/tree/main/examples/make_bins#output).
 
 ### Citation
 
