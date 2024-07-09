@@ -14,7 +14,9 @@ The pipeline below describes how to produce the BED-like files from EDTA output,
 ```
 . 01_fix_headers.sh
 ```
-*Step 1:* Restore the full contig names to `EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out`, since EDTA will cap them at a fixed number of characters. Please note that this step is only relevant if using EDTA de-novo annotation output and assumes that files named `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` are available. If using RepeatMasker output from another source, simply copy them into `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` where `$species` may refer to the species and `$build` may refer to the genome assembly. However, any strings are valid as `$species/$build`, e.g., `Dmel/dm6" or "My_secret_species/01".
+*Step 1:* Restore the full contig names to `EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out`, since EDTA will cap them at a fixed number of characters. Please note that this step is only relevant if using EDTA de-novo annotation output and assumes that files named `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` are available.
+
+If using RepeatMasker output from another source, simply rename and copy your `.out` files into `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` where `$species` may refer to the species and `$build` may refer to the genome assembly. However, any strings are valid as `$species/$build`, e.g., `Dmel/dm6" or "My_secret_species/01".
 
 ```
 . 02_tab.sh
