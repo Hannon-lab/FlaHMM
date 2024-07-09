@@ -52,7 +52,7 @@ Results are saved in results folder and can be visualised with the Results_Visua
 
 ### Optional: Preparing custom transposon annotations
 
-To run the FlaHMM tool you need to calculate transposon content for the genome of interest using RepeatMasker. If no transposon library is present for your species of interest, you may wish to run EDTA to construct transposon libraries; alternatively, you could use RepBase annotations from a closely related species. Detailed instructions are found below:
+To run the FlaHMM tool you need to calculate transposon content for the genome of interest using RepeatMasker with a suitable transposon library (FASTA). If no transposon library is available for your species of interest, we recommend running EDTA. Alternatively, you could use an existing library (e.g., RepBase) from a closely related species. Detailed instructions are found below:
 * examples/run_EDTA - Scripts/instructions to generate EDTA transposon libraries (optional)
 * examples/make_bins - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins from RepeatMasker output
 
@@ -72,12 +72,12 @@ bins
         └── Dmel.dm6.bed
 ```
 
+and that the BED-like files follow the structured defined [here](https://github.com/Hannon-lab/FlaHMM/tree/main/examples/make_bins#output)..
+
 ### Citation
 
 If you find FlaHMM use, please consider citing it:
 
 FlaHMM: unistrand flamenco-like piRNA cluster prediction in Drosophila species using hidden Markov models
-
 Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv
-
 *bioRxiv* 2024.05.14.592433; doi: [https://doi.org/10.1101/2024.05.14.592433](https://doi.org/10.1101/2024.05.14.592433)
