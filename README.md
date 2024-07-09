@@ -53,8 +53,8 @@ Results are saved in results folder and can be visualised with the Results_Visua
 ### Optional: Preparing custom transposon annotations
 
 To run the FlaHMM tool you need to calculate transposon content for the genome of interest using RepeatMasker with a suitable transposon library (FASTA). If no transposon library is available for your species of interest, we recommend running EDTA. Alternatively, you could use an existing library (e.g., RepBase) from a closely related species. Detailed instructions are found below:
-* examples/run_EDTA - Scripts/instructions to generate EDTA transposon libraries (optional)
-* examples/make_bins - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins from RepeatMasker output
+* [examples/run_EDTA](examples/run_EDTA) - Scripts/instructions to generate EDTA transposon libraries (optional)
+* [examples/make_bins](examples/make_bins) - Scripts to calculate LTR/Gypsy content genome-wide per 2.5 kb, 5 kb, or 10 kb bins from RepeatMasker output
 
 If you use your own BED-like input files, put them into the `bins` directory using the following directory structure
 ```
