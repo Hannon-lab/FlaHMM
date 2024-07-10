@@ -1,6 +1,6 @@
 # make_bins
 
-These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/De-novo_clusters and describe how to calculate pre-processed BED-like files with Gypsy/LTR content to be used as input for FlaHMM.
+These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/De-novo_clusters and describe how to construct BED-like files with Gypsy/LTR content to be used as input for FlaHMM.
 
 **Input:** A RepeatMasker output file (.out) for the genome of interest.<br>
 **Output:** Two BED-like files (plus and minus strand) with LTR/Gypsy content per genomic bin.<br>
@@ -16,7 +16,7 @@ The pipeline below describes how to produce the BED-like files from EDTA output,
 ```
 *Step 1:* Restore the full contig names to `EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out`, since EDTA will cap them at a fixed number of characters. Please note that this step is only relevant if using EDTA de-novo annotation output and assumes that files named `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` are available.
 
-If using RepeatMasker output from another source, simply rename and copy your `.out` files into `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` where `$species` may refer to the species and `$build` may refer to the genome assembly. However, any strings are valid as "$species/$build", e.g., "Dmel/dm6" or "My_secret_species/01".
+If using RepeatMasker output from another source than EDTA, simply rename and copy your `.out` files into `species/$species/$build/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out` where `$species` may refer to the species and `$build` may refer to the genome assembly. However, any strings are valid as "$species/$build", e.g., "Dmel/dm6" or "My_secret_species/01".
 
 ```
 . 02_tab.sh
@@ -34,7 +34,7 @@ If using RepeatMasker output from another source, simply rename and copy your `.
 *Step 4:* Calculate Gypsy coverage per 2.5 kb, 5 kb, and 10 kb window. The results are found in `out/04_bins/overlap/bins_2.5k`, `out/04_bins/overlap/bins_5k`, and `out/04_bins/overlap/bins_10k`, which can be copied to the `bins` directory.
 
 
-## Output
+## Output file format
 
 The output is produced in the form of a tab-separated file representing
 1. Chromosome
@@ -83,6 +83,8 @@ samtools faidx species/Dmel/dm6/genome.fa
 ```
 
 #### Using USCS pre-computed RepeatMasker output files
+
+Aside from EDTA, any RepeatMasker output files can be used as input. Below is an example of an .out file downloaded from the UCSC Genome Browser.
 
 ```
 # Download pre-calculated RepeatMasker output for dm6
