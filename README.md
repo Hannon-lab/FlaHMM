@@ -52,6 +52,8 @@ Results are saved in results folder and can be visualised with the Results_Visua
 
 ### Output of FlaHMM
 
+Running FlaHMM with the command above would give the following results
+
 ```
 $ python FlaHMM.py  --species Dmel.dm6 --bins 5 --threshold .025
 =========================================================================================
@@ -69,6 +71,8 @@ Making flaHMM predictions for Dmel.dm6...
 Done. Predictions saved in results folder as results/results_Dmel.dm6_Bin_5k_threshold_0.025.txt.
 ```
 
+Here, the output file `results/results_Dmel.dm6_Bin_5k_threshold_0.025.txt` is indicated, and has the following structure
+
 ```
 $ head results/results_Dmel.dm6_Bin_5k_threshold_0.025.txt 
         chr     bin_start       bin_end strand  species_test    region_binary   emission_0.025  pred_0.025      proba_NoCluster_0.025   proba_Cluster_0.025     proba_Centromere_0.025
@@ -82,6 +86,19 @@ $ head results/results_Dmel.dm6_Bin_5k_threshold_0.025.txt
 7       chr2L   35000   40000   plus    Dmel.dm6        0       0       0       0.9999990335761717      3.9067539081585073e-08  9.273563859768871e-07
 8       chr2L   40000   45000   plus    Dmel.dm6        0       0       0       0.9999993185044835      3.759258416502015e-08   6.439028927488428e-07
 ```
+
+Specifically, the columns are the following allowing further visualisation:
+1. chr - Chromosome
+2. bin_start - Start coordinate
+3. bin_end - End coordinate
+4. strand - Strand
+5. species_test - Name of species (and assembly)
+6. region_binary - Known annotation if available (0 = none, 1 = flam(like), 2 = centromere)
+7. emission_0.025 - Emission (0 = TEs below threshold, 1 = TEs on one strand, 2 = TEs on both strands)
+8. pred_0.025 - Predicted region (0 = none, 1 = flam(like), 2 = centromere)
+9. proba_NoCluster_0.025 - Predicted probability for none (0)
+10. proba_Cluster_0.025 - Predicted probability for flam(like) (1)
+11. proba_Centromere_0.025 - Predicted probability for centromere (2)
 
 ### Optional: Preparing custom transposon annotations
 
