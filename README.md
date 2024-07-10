@@ -87,7 +87,7 @@ $ head results/results_Dmel.dm6_Bin_5k_threshold_0.025.txt
 8       chr2L   40000   45000   plus    Dmel.dm6        0       0       0       0.9999993185044835      3.759258416502015e-08   6.439028927488428e-07
 ```
 
-Specifically, the columns are the following allowing further visualisation:
+Specifically, the output data contains the following columns:
 1. chr - Chromosome
 2. bin_start - Start coordinate
 3. bin_end - End coordinate
