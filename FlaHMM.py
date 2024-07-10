@@ -3,7 +3,7 @@
 """
 FlaHMM.py - A tool for flam-like cluster predictions based on LTR/Gypsy transposon content.
 """
-_version_ = "0.9.1-beta"
+__version__ = "0.9.1-beta"
 _licence_ = "MIT License"
 
 import os
@@ -33,7 +33,7 @@ def print_intro_message():
     """ Print a welcome message """
 
     welcome_message = f"""=========================================================================================
-FlaHMM v{_version_}
+FlaHMM v{__version__}                                   https://github.com/Hannon-lab/FlaHMM
 
 A tool for flam-like cluster predictions based on LTR/Gypsy transposon content.
 
@@ -63,6 +63,7 @@ def main():
 
     # Check that all mandatory arguments are provided
     if options.bins == None or options.threshold == None or options.species == None:
+        print("Error: Please provide all three mandatory arguments.\n")
         parser.print_help()
         sys.exit(0)
 
