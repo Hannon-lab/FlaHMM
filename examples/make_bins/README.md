@@ -72,6 +72,8 @@ chr2L   45000   50000   0       0       5000    0.0000000
 
 ## Example
 
+#### Using EDTA output files
+
 EDTA annotations for Drosophila melanogaster has been provided as an example. The genome assembly was too large to provide, but can be downloaded using
 
 ```
@@ -80,50 +82,116 @@ gunzip species/Dmel/dm6/genome.fa.gz
 samtools faidx species/Dmel/dm6/genome.fa
 ```
 
-Following the instructions above should result in the following files:
+#### Using USCS pre-computed RepeatMasker output files
 
 ```
-$ tree out/
+# Download pre-calculated RepeatMasker output for dm6
+wget https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.fa.out.gz
+gunzip dm6.fa.out.gz
+
+# Create folders and add RepeatMasker output file to the expected folder
+mkdir species/Dmel/dm6-rm
+mkdir species/Dmel/dm6-rm/annotation
+mkdir species/Dmel/dm6-rm/annotation/EDTA
+mkdir species/Dmel/dm6-rm/annotation/EDTA/genome.fa.mod.EDTA.anno
+mv dm6.fa.out species/Dmel/dm6-rm/annotation/EDTA/genome.fa.mod.EDTA.anno/genome.fa.mod.out
+```
+
+Moreover, you need to provide the genome.fa and genome.fa.fai for the genome of interest. If downloading them using the instructions above, they can be copied into the new folder using
+```
+# Copy genome into new folder
+cp species/Dmel/dm6/genome.fa* species/Dmel/dm6-rm/
+```
+
+#### Expected input file structure
+
+If preparing both the EDTA and UCSC-RepeatMasker examples, the following directory structure would be expected in the `species` directory
+
+```
+
+$ tree species
+species/
+└── Dmel
+    ├── dm6
+    │   ├── annotation
+    │   │   └── EDTA
+    │   │       └── genome.fa.mod.EDTA.anno
+    │   │           └── genome.fa.mod.out
+    │   ├── genome.fa
+    │   └── genome.fa.fai
+    └── dm6-rm
+        ├── annotation
+        │   └── EDTA
+        │       └── genome.fa.mod.EDTA.anno
+        │           └── genome.fa.mod.out
+        ├── genome.fa
+        └── genome.fa.fai
+
+9 directories, 6 files
+```
+
+#### Expected results
+
+Following the instructions above (stpe 01 to 04) should result in the following files
+
+```
 out/
 ├── 01_fix_header
-│   └── Dmel.dm6.out
+│   ├── Dmel.dm6.out
+│   └── Dmel.dm6-rm.out
 ├── 02_tab
 │   ├── all
+│   │   ├── Dmel.dm6-rm.tab
 │   │   └── Dmel.dm6.tab
 │   ├── minus
+│   │   ├── Dmel.dm6-rm.tab
 │   │   └── Dmel.dm6.tab
 │   └── plus
+│       ├── Dmel.dm6-rm.tab
 │       └── Dmel.dm6.tab
 ├── 03_bed
 │   ├── minus
 │   │   ├── Dmel.dm6.bed
+│   │   ├── Dmel.dm6-rm.bed
 │   │   └── merged
-│   │       └── Dmel.dm6.bed
+│   │       ├── Dmel.dm6.bed
+│   │       └── Dmel.dm6-rm.bed
 │   └── plus
 │       ├── Dmel.dm6.bed
+│       ├── Dmel.dm6-rm.bed
 │       └── merged
-│           └── Dmel.dm6.bed
+│           ├── Dmel.dm6.bed
+│           └── Dmel.dm6-rm.bed
 └── 04_bins
     ├── bins
     │   ├── Dmel.dm6.10000.bed.gz
     │   ├── Dmel.dm6.2500.bed.gz
-    │   └── Dmel.dm6.5000.bed.gz
+    │   ├── Dmel.dm6.5000.bed.gz
+    │   ├── Dmel.dm6-rm.10000.bed.gz
+    │   ├── Dmel.dm6-rm.2500.bed.gz
+    │   └── Dmel.dm6-rm.5000.bed.gz
     └── overlap
         ├── bins_10k
         │   ├── minus
-        │   │   └── Dmel.dm6.bed
+        │   │   ├── Dmel.dm6.bed
+        │   │   └── Dmel.dm6-rm.bed
         │   └── plus
-        │       └── Dmel.dm6.bed
+        │       ├── Dmel.dm6.bed
+        │       └── Dmel.dm6-rm.bed
         ├── bins_2.5k
         │   ├── minus
-        │   │   └── Dmel.dm6.bed
+        │   │   ├── Dmel.dm6.bed
+        │   │   └── Dmel.dm6-rm.bed
         │   └── plus
-        │       └── Dmel.dm6.bed
+        │       ├── Dmel.dm6.bed
+        │       └── Dmel.dm6-rm.bed
         └── bins_5k
             ├── minus
-            │   └── Dmel.dm6.bed
+            │   ├── Dmel.dm6.bed
+            │   └── Dmel.dm6-rm.bed
             └── plus
-                └── Dmel.dm6.bed
+                ├── Dmel.dm6.bed
+                └── Dmel.dm6-rm.bed
 
-22 directories, 17 files
+22 directories, 34 files
 ```
