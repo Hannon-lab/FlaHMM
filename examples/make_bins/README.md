@@ -89,7 +89,9 @@ samtools faidx species/Dmel/dm6/genome.fa
 wget https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.fa.out.gz
 gunzip dm6.fa.out.gz
 
-# Create folders and add RepeatMasker output file to the expected folder
+# Create folders and add RepeatMasker output file to the expected folder. Please 
+# note that we chosen "Dmel" as the species name and "dm6-rm" as the build name
+# but this could be any strings.
 mkdir species/Dmel/dm6-rm
 mkdir species/Dmel/dm6-rm/annotation
 mkdir species/Dmel/dm6-rm/annotation/EDTA
@@ -99,7 +101,7 @@ mv dm6.fa.out species/Dmel/dm6-rm/annotation/EDTA/genome.fa.mod.EDTA.anno/genome
 
 Moreover, you need to provide the genome.fa and genome.fa.fai for the genome of interest. If downloading them using the instructions above, they can be copied into the new folder using
 ```
-# Copy genome into new folder
+# Copy genome from Dmel/dm6 into Dmel/dm6-rm
 cp species/Dmel/dm6/genome.fa* species/Dmel/dm6-rm/
 ```
 
@@ -132,7 +134,7 @@ species/
 
 #### Expected results
 
-Following the instructions above (stpe 01 to 04) should result in the following files
+Following the instructions above (step 01 to 04) should result in the following files
 
 ```
 out/
@@ -195,3 +197,5 @@ out/
 
 22 directories, 34 files
 ```
+
+The content of the `04_bins/overlap` folder can be directory copied into `../../bins` and act as input files.
