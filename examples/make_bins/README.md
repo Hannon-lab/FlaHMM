@@ -82,7 +82,7 @@ gunzip species/Dmel/dm6/genome.fa.gz
 samtools faidx species/Dmel/dm6/genome.fa
 ```
 
-#### Using USCS pre-computed RepeatMasker output files
+#### Using UCSC pre-computed RepeatMasker output files
 
 Aside from EDTA, any RepeatMasker output files can be used as input. Below is an example of an .out file downloaded from the UCSC Genome Browser.
 
