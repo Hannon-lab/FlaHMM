@@ -122,7 +122,7 @@ bins
         └── Dmel.dm6.bed
 ```
 
-and ensure that the BED-like files have [the following format](examples/make_bins#output).
+and ensure that the BED-like files have [the following format](examples/make_bins#output-file-format).
 
 ### Citation
 
