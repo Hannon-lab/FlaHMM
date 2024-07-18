@@ -3,6 +3,7 @@
 
 # Author: Susanne Bornelöv
 # Last edited: 2023-02-21 (documentation and comments)
+# Last edited: 2024-07-10 (removed if clause to ensure bins are always recalculated)
 
 mkdir -p out/04_bins/{bins,overlap}
 
@@ -18,12 +19,10 @@ do
 	# Create windows
 	for size in 2500 5000 10000
 	do
-		if [ ! -e "out/04_bins/bins/$species.$build.$size.bed.gz" ]; then
-			if [[ "$size" == 10000 ]]; then
-			   bedtools makewindows -w $size -s 5000 -g $genome/genome.fa.fai | awk -v OFS="\t" '$3-$2>0' | gzip -c > out/04_bins/bins/$species.$build.$size.bed.gz
-			else
-			   bedtools makewindows -w $size -g $genome/genome.fa.fai | awk -v OFS="\t" '$3-$2>0' | gzip -c > out/04_bins/bins/$species.$build.$size.bed.gz
-			fi
+		if [[ "$size" == 10000 ]]; then
+		   bedtools makewindows -w $size -s 5000 -g $genome/genome.fa.fai | awk -v OFS="\t" '$3-$2>0' | gzip -c > out/04_bins/bins/$species.$build.$size.bed.gz
+		else
+		   bedtools makewindows -w $size -g $genome/genome.fa.fai | awk -v OFS="\t" '$3-$2>0' | gzip -c > out/04_bins/bins/$species.$build.$size.bed.gz
 		fi
 
 		grp=$(echo "scale=1; $size/1000" | bc)

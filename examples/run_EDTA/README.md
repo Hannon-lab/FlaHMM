@@ -1,6 +1,6 @@
 # run EDTA
 
-These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/Transposon_libraries
+These instructions are based on https://github.com/susbo/Drosophila_unistrand_clusters/tree/main/Transposon_libraries and describe how to run the Extensive *de-novo* TE Annotator (EDTA) for a new genome assembly. Please also refer to the EDTA GitHub page: [https://github.com/oushujun/EDTA](https://github.com/oushujun/EDTA).
 
 The examples below assumes that you are in `species/Dmel/dm6/annotation/EDTA` (replace Dmel/dm6 for your species/assembly) and that `species/Dmel/dm6/genome.fa` is available.
 
@@ -16,4 +16,4 @@ EDTA_raw.pl --genome ../../genome.fa --type ltr -t 10 --overwrite 0
 EDTA.pl --genome ../../genome.fa --sensitive 1 --anno 1 --evaluate 1 -t 10 --overwrite 0 --force 1
 ```
 
-Our version of EDTA crashed whenever a Penelope elements was detected. The avoid this, one of the scripts was slightly modified. This is described in `EDTA_fix`.
+Our version of EDTA crashed whenever a Penelope elements was detected. The avoid this, one of the EDTA scripts was slightly modified. This is described in `EDTA_fix`. This has already been corrected in more recent versions of EDTA.

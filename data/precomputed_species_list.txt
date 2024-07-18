@@ -1,0 +1,194 @@
+Name	Species	Assembly	Full name	Source
+Ccos.d101g	Ccos	d101g	Chymomyza costata	Kim BY et al., 2021
+Daca.d101g	Daca	d101g	Drosophila acanthoptera	Kim BY et al., 2021
+Dalb.GCF_009650485	Dalb	GCF_009650485	Drosophila albomicans	NCBI RefSeq
+Damb.d101g	Damb	d101g	Drosophila ambigua	Kim BY et al., 2021
+Dame.d101g	Dame	d101g	Drosophila americana	Kim BY et al., 2021
+Dana.d101g	Dana	d101g	Drosophila ananassae	Kim BY et al., 2021
+Dana.d15genomes	Dana	d15genomes	Drosophila ananassae	Miller DE et al., 2018
+Dana.droAna2	Dana	droAna2	Drosophila ananassae	UCSC
+Dana.GCF_003285975	Dana	GCF_003285975	Drosophila ananassae	NCBI RefSeq
+Dana.GCF_017639315	Dana	GCF_017639315	Drosophila ananassae	NCBI RefSeq
+Dara.d101g	Dara	d101g	Drosophila arawakana	Kim BY et al., 2021
+Dari.GCF_001654025	Dari	GCF_001654025	Drosophila arizonae	NCBI RefSeq
+Dath.GCA_008121215	Dath	GCA_008121215	Drosophila athabasca	NCBI GenBank
+Dazt.GCA_005876895	Dazt	GCA_005876895	Drosophila azteca	NCBI GenBank
+Dbia.d101g	Dbia	d101g	Drosophila biarmipes	Kim BY et al., 2021
+Dbia.d15genomes	Dbia	d15genomes	Drosophila biarmipes	Miller DE et al., 2018
+Dbia.GCF_000233415	Dbia	GCF_000233415	Drosophila biarmipes	NCBI RefSeq
+Dbia.GCF_018148935	Dbia	GCF_018148935	Drosophila biarmipes	NCBI RefSeq
+Dbif.GCA_009664405	Dbif	GCA_009664405	Drosophila bifasciata	NCBI GenBank
+Dbip.d101g	Dbip	d101g	Drosophila bipectinata	Kim BY et al., 2021
+Dbip.d15genomes	Dbip	d15genomes	Drosophila bipectinata	Miller DE et al., 2018
+Dbip.GCF_000236285	Dbip	GCF_000236285	Drosophila bipectinata	NCBI RefSeq
+Dbip.GCF_018153845	Dbip	GCF_018153845	Drosophila bipectinata	NCBI RefSeq
+Dbir.GCA_008042755	Dbir	GCA_008042755	Drosophila birchii	NCBI GenBank
+Dboc.d101g	Dboc	d101g	Drosophila bocqueti	Kim BY et al., 2021
+Dbro.d101g	Dbro	d101g	Drosophila bromeliae	Kim BY et al., 2021
+Dbun.GCA_008042815	Dbun	GCA_008042815	Drosophila bunnanda	NCBI GenBank
+Dbus.GCF_011750605	Dbus	GCF_011750605	Drosophila busckii	NCBI RefSeq
+Dcard.d101g	Dcard	d101g	Drosophila cardini	Kim BY et al., 2021
+Dcarr.d101g	Dcarr	d101g	Drosophila carrolli	Kim BY et al., 2021
+Ddun.d101g	Ddun	d101g	Drosophila dunni	Kim BY et al., 2021
+Dele.d101g	Dele	d101g	Drosophila elegans	Kim BY et al., 2021
+Dele.GCF_000224195	Dele	GCF_000224195	Drosophila elegans	NCBI RefSeq
+Dele.GCF_018152505	Dele	GCF_018152505	Drosophila elegans	NCBI RefSeq
+Dequ.d101g	Dequ	d101g	Drosophila equinoxialis	Kim BY et al., 2021
+Derc.d101g	Derc	d101g	Drosophila ercepeae	Kim BY et al., 2021
+Dere.d101g	Dere	d101g	Drosophila erecta	Kim BY et al., 2021
+Dere.d15genomes	Dere	d15genomes	Drosophila erecta	Miller DE et al., 2018
+Dere.droEre1	Dere	droEre1	Drosophila erecta	UCSC
+Dere.GCF_003286155	Dere	GCF_003286155	Drosophila erecta	NCBI RefSeq
+Deug.d101g	Deug	d101g	Drosophila eugracilis	Kim BY et al., 2021
+Deug.d15genomes	Deug	d15genomes	Drosophila eugracilis	Miller DE et al., 2018
+Deug.GCF_000236325	Deug	GCF_000236325	Drosophila eugracilis	NCBI RefSeq
+Deug.GCF_018153835	Deug	GCF_018153835	Drosophila eugracilis	NCBI RefSeq
+Dezo_mas.d101g	Dezo_mas	d101g	Drosophila ezoana.masurca	Kim BY et al., 2021
+Dfic.d101g	Dfic	d101g	Drosophila ficusphila	Kim BY et al., 2021
+Dfic.GCF_000220665	Dfic	GCF_000220665	Drosophila ficusphila	NCBI RefSeq
+Dfic.GCF_018152265	Dfic	GCF_018152265	Drosophila ficusphila	NCBI RefSeq
+Dfun.d101g	Dfun	d101g	Drosophila funebris	Kim BY et al., 2021
+Dfuy.d101g	Dfuy	d101g	Drosophila fuyamai	Kim BY et al., 2021
+Dgri.d101g	Dgri	d101g	Drosophila grimshawi	Kim BY et al., 2021
+Dgri.droGri1	Dgri	droGri1	Drosophila grimshawi	UCSC
+Dgri.GCF_000005155	Dgri	GCF_000005155	Drosophila grimshawi	NCBI RefSeq
+Dgri.GCF_018153295	Dgri	GCF_018153295	Drosophila grimshawi	NCBI RefSeq
+Dgua.GCF_900245975	Dgua	GCF_900245975	Drosophila guanche	NCBI RefSeq
+Dhyd.GCF_003285905	Dhyd	GCF_003285905	Drosophila hydei	NCBI RefSeq
+Dimm.d101g_fk05	Dimm	d101g_fk05	Drosophila immigrans	Kim BY et al., 2021
+Dimm.d101g_kari17	Dimm	d101g_kari17	Drosophila immigrans	Kim BY et al., 2021
+Dinn.GCF_004354385	Dinn	GCF_004354385	Drosophila innubila	NCBI RefSeq
+Dins.d101g	Dins	d101g	Drosophila insularis	Kim BY et al., 2021
+Djam.d101g	Djam	d101g	Drosophila jambulina	Kim BY et al., 2021
+Dkan.GCA_008042475	Dkan	GCA_008042475	Drosophila kanapiae	NCBI GenBank
+Dkik.d101g	Dkik	d101g	Drosophila kikkawai	Kim BY et al., 2021
+Dkik.GCF_000224215	Dkik	GCF_000224215	Drosophila kikkawai	NCBI RefSeq
+Dkik.GCF_018152535	Dkik	GCF_018152535	Drosophila kikkawai	NCBI RefSeq
+Dkur.d101g	Dkur	d101g	Drosophila kurseongensis	Kim BY et al., 2021
+Dlit.d101g	Dlit	d101g	Drosophila littoralis	Kim BY et al., 2021
+Dlow.GCA_008121275	Dlow	GCA_008121275	Drosophila lowei	NCBI GenBank
+Dmal_mal.d101g	Dmal_mal	d101g	Drosophila m.malerkotliana	Kim BY et al., 2021
+Dmal_pal.d101g	Dmal_pal	d101g	Drosophila m.pallens	Kim BY et al., 2021
+Dmau.d101g	Dmau	d101g	Drosophila mauritiana	Kim BY et al., 2021
+Dmau.d15genomes	Dmau	d15genomes	Drosophila mauritiana	Miller DE et al., 2018
+Dmau.GCF_004382145	Dmau	GCF_004382145	Drosophila mauritiana	NCBI RefSeq
+Dmel.d101g	Dmel	d101g	Drosophila melanogaster	Kim BY et al., 2021
+Dmel.dm6	Dmel	dm6	Drosophila melanogaster	UCSC
+Dmir.GCF_003369915	Dmir	GCF_003369915	Drosophila miranda	NCBI RefSeq
+Dmoj.d101g	Dmoj	d101g	Drosophila mojavensis	Kim BY et al., 2021
+Dmoj.d15genomes	Dmoj	d15genomes	Drosophila mojavensis	Miller DE et al., 2018
+Dmoj.droMoj2	Dmoj	droMoj2	Drosophila mojavensis	UCSC
+Dmoj.GCF_000005175	Dmoj	GCF_000005175	Drosophila mojavensis	NCBI RefSeq
+Dmoj.GCF_018153725	Dmoj	GCF_018153725	Drosophila mojavensis	NCBI RefSeq
+Dmur.d101g	Dmur	d101g	Drosophila murphyi	Kim BY et al., 2021
+Dnan.GCA_020883555	Dnan	GCA_020883555	Drosophila nannoptera	NCBI GenBank
+Dnav.GCF_001654015	Dnav	GCF_001654015	Drosophila navojoa	NCBI RefSeq
+Dneo.d101g	Dneo	d101g	Drosophila neocordata	Kim BY et al., 2021
+Dnov.GCF_003285875	Dnov	GCF_003285875	Drosophila novamexicana	NCBI RefSeq
+Dobs.d101g	Dobs	d101g	Drosophila obscura	Kim BY et al., 2021
+Dobs.GCF_002217835	Dobs	GCF_002217835	Drosophila obscura	NCBI RefSeq
+Dobs.GCF_018151105	Dobs	GCF_018151105	Drosophila obscura	NCBI RefSeq
+Dore.GCA_005876975	Dore	GCA_005876975	Drosophila orena	NCBI GenBank
+Dosh.d101g	Dosh	d101g	Drosophila oshimai	Kim BY et al., 2021
+Dpac.GCA_020883565	Dpac	GCA_020883565	Drosophila pachea	NCBI GenBank
+Dpar.d101g	Dpar	d101g	Drosophila parabipectinata	Kim BY et al., 2021
+Dpau.d101g_L06	Dpau	d101g_L06	Drosophila paulistorum	Kim BY et al., 2021
+Dpau.d101g_L12	Dpau	d101g_L12	Drosophila paulistorum	Kim BY et al., 2021
+Dpec.GCA_008042775	Dpec	GCA_008042775	Drosophila pectinifera	NCBI GenBank
+Dper.d101g	Dper	d101g	Drosophila persimilis	Kim BY et al., 2021
+Dper.d15genomes	Dper	d15genomes	Drosophila persimilis	Miller DE et al., 2018
+Dper.droPer1	Dper	droPer1	Drosophila persimilis	UCSC
+Dper.GCF_003286085	Dper	GCF_003286085	Drosophila persimilis	NCBI RefSeq
+Dpro.d101g	Dpro	d101g	Drosophila prosaltans	Kim BY et al., 2021
+Dpru.d101g	Dpru	d101g	Drosophila pruinosa	Kim BY et al., 2021
+Dpsea_nig.d101g	Dpsea_nig	d101g	Drosophila p.nigrens	Kim BY et al., 2021
+Dpsea_pse.d101g	Dpsea_pse	d101g	Drosophila p.pseudoananassae	Kim BY et al., 2021
+Dpse.d101g	Dpse	d101g	Drosophila pseudoobscura	Kim BY et al., 2021
+Dpse.d15genomes	Dpse	d15genomes	Drosophila pseudoobscura	Miller DE et al., 2018
+Dpse.dp3	Dpse	dp3	Drosophila pseudoobscura	UCSC
+Dpse.GCF_009870125	Dpse	GCF_009870125	Drosophila pseudoobscura	NCBI RefSeq
+Dqua.d101g	Dqua	d101g	Drosophila quadrilineata	Kim BY et al., 2021
+Drepa.d101g	Drepa	d101g	Drosophila repleta	Kim BY et al., 2021
+Drepo.d101g	Drepo	d101g	Drosophila repletoides	Kim BY et al., 2021
+Drho.d101g	Drho	d101g	Drosophila rhopaloa	Kim BY et al., 2021
+Drho.GCF_000236305	Drho	GCF_000236305	Drosophila rhopaloa	NCBI RefSeq
+Drho.GCF_018152115	Drho	GCF_018152115	Drosophila rhopaloa	NCBI RefSeq
+Druf.d101g	Druf	d101g	Drosophila rufa	Kim BY et al., 2021
+Dsal.d101g	Dsal	d101g	Drosophila saltans	Kim BY et al., 2021
+Dsan.GCF_016746245	Dsan	GCF_016746245	Drosophila santomea	NCBI RefSeq
+Dsec.d101g	Dsec	d101g	Drosophila sechellia	Kim BY et al., 2021
+Dsec.d15genomes	Dsec	d15genomes	Drosophila sechellia	Miller DE et al., 2018
+Dsec.droSec1	Dsec	droSec1	Drosophila sechellia	UCSC
+Dsec.GCF_004382195	Dsec	GCF_004382195	Drosophila sechellia	NCBI RefSeq
+Dser.GCA_008042835	Dser	GCA_008042835	Drosophila serrata	NCBI GenBank
+Dser.GCF_002093755	Dser	GCF_002093755	Drosophila serrata	NCBI RefSeq
+Dsim.d101g	Dsim	d101g	Drosophila simulans	Kim BY et al., 2021
+Dsim.d15genomes	Dsim	d15genomes	Drosophila simulans	Miller DE et al., 2018
+Dsim.droSim1	Dsim	droSim1	Drosophila simulans	UCSC
+Dsim.GCF_000754195	Dsim	GCF_000754195	Drosophila simulans	NCBI RefSeq
+Dsim.GCF_016746395	Dsim	GCF_016746395	Drosophila simulans	NCBI RefSeq
+Dsp_affcha.d101g	Dsp_affcha	d101g	Drosophila sp.affchauvacae	Kim BY et al., 2021
+Dsp_mus.d101g	Dsp_mus	d101g	Drosophila sp.mushsaotome	Kim BY et al., 2021
+Dspr.d101g	Dspr	d101g	Drosophila sproati	Kim BY et al., 2021
+Dstu.d101g	Dstu	d101g	Drosophila sturtevanti	Kim BY et al., 2021
+Dsub.d101g	Dsub	d101g	Drosophila subobscura	Kim BY et al., 2021
+Dsub.GCF_008121235	Dsub	GCF_008121235	Drosophila subobscura	NCBI RefSeq
+Dsubp.d101g_L1	Dsubp	d101g_L1	Drosophila subpulchrella	Kim BY et al., 2021
+Dsubp.GCF_014743375	Dsubp	GCF_014743375	Drosophila subpulchrella	NCBI RefSeq
+Dsuc.d101g	Dsuc	d101g	Drosophila sucinea	Kim BY et al., 2021
+Dsuz.GCF_000472105	Dsuz	GCF_000472105	Drosophila suzukii	NCBI RefSeq
+Dsuz.GCF_013340165	Dsuz	GCF_013340165	Drosophila suzukii	NCBI RefSeq
+Dtak.d101g	Dtak	d101g	Drosophila takahashii	Kim BY et al., 2021
+Dtak.GCF_000224235	Dtak	GCF_000224235	Drosophila takahashii	NCBI RefSeq
+Dtak.GCF_018152695	Dtak	GCF_018152695	Drosophila takahashii	NCBI RefSeq
+Dtei.d101g_2733	Dtei	d101g_2733	Drosophila teissieri	Kim BY et al., 2021
+Dtei.d101g_CT02	Dtei	d101g_CT02	Drosophila teissieri	Kim BY et al., 2021
+Dtei.GCF_016746235	Dtei	GCF_016746235	Drosophila teissieri	NCBI RefSeq
+Dtri.d101g	Dtri	d101g	Drosophila triauraria	Kim BY et al., 2021
+Dtri.d15genomes	Dtri	d15genomes	Drosophila triauraria	Miller DE et al., 2018
+Dtris.d101g	Dtris	d101g	Drosophila tristis	Kim BY et al., 2021
+Dtro.d101g	Dtro	d101g	Drosophila tropicalis	Kim BY et al., 2021
+Dvar.d101g	Dvar	d101g	Drosophila varians	Kim BY et al., 2021
+Dvir.d101g	Dvir	d101g	Drosophila virilis	Kim BY et al., 2021
+Dvir.d15genomes	Dvir	d15genomes	Drosophila virilis	Miller DE et al., 2018
+Dvir.droVir2	Dvir	droVir2	Drosophila virilis	UCSC
+Dvir.GCF_003285735	Dvir	GCF_003285735	Drosophila virilis	NCBI RefSeq
+Dwas.d101g	Dwas	d101g	Drosophila wassermani	Kim BY et al., 2021
+Dwil.d101g	Dwil	d101g	Drosophila willistoni	Kim BY et al., 2021
+Dwil.d15genomes	Dwil	d15genomes	Drosophila willistoni	Miller DE et al., 2018
+Dwil.GCF_000005925	Dwil	GCF_000005925	Drosophila willistoni	NCBI RefSeq
+Dwil.GCF_018902025	Dwil	GCF_018902025	Drosophila willistoni	NCBI RefSeq
+Dyak.d101g	Dyak	d101g	Drosophila yakuba	Kim BY et al., 2021
+Dyak.d15genomes	Dyak	d15genomes	Drosophila yakuba	Miller DE et al., 2018
+Dyak.droYak2	Dyak	droYak2	Drosophila yakuba	UCSC
+Dyak.GCF_000005975	Dyak	GCF_000005975	Drosophila yakuba	NCBI RefSeq
+Dyak.GCF_016746365	Dyak	GCF_016746365	Drosophila yakuba	NCBI RefSeq
+Lcla.d101g	Lcla	d101g	Lordiphosa clarofinis	Kim BY et al., 2021
+Lcol.d101g	Lcol	d101g	Lordiphosa collinella	Kim BY et al., 2021
+Lmag.d101g	Lmag	d101g	Lordiphosa magnipectinata	Kim BY et al., 2021
+Lmom.d101g	Lmom	d101g	Lordiphosa mommai	Kim BY et al., 2021
+Lsta.d101g	Lsta	d101g	Lordiphosa stackelbergi	Kim BY et al., 2021
+Lvar.d101g	Lvar	d101g	Lordiphosa varia	Kim BY et al., 2021
+Sgra.d101g	Sgra	d101g	Scaptomyza graminum	Kim BY et al., 2021
+Shsu.d101g	Shsu	d101g	Scaptomyza hsui	Kim BY et al., 2021
+Smon.d101g	Smon	d101g	Scaptomyza montana	Kim BY et al., 2021
+Spal.d101g	Spal	d101g	Scaptomyza pallida	Kim BY et al., 2021
+Zafr.d101g	Zafr	d101g	Zaprionus africanus	Kim BY et al., 2021
+Zcam.d101g	Zcam	d101g	Zaprionus camerounensis	Kim BY et al., 2021
+Zcap.d101g	Zcap	d101g	Zaprionus capensis	Kim BY et al., 2021
+Zdav.d101g	Zdav	d101g	Zaprionus davidi	Kim BY et al., 2021
+Zgab.d101g	Zgab	d101g	Zaprionus gabonicus	Kim BY et al., 2021
+Zghe.d101g	Zghe	d101g	Zaprionus ghesquierei	Kim BY et al., 2021
+Zind.d101g_16GNV01	Zind	d101g_16GNV01	Zaprionus indianus	Kim BY et al., 2021
+Zind.d101g_BS02	Zind	d101g_BS02	Zaprionus indianus	Kim BY et al., 2021
+Zind.d101g_CDD18	Zind	d101g_CDD18	Zaprionus indianus	Kim BY et al., 2021
+Zind.d101g_RCR04	Zind	d101g_RCR04	Zaprionus indianus	Kim BY et al., 2021
+Zine.d101g	Zine	d101g	Zaprionus inermis	Kim BY et al., 2021
+Zkol.d101g	Zkol	d101g	Zaprionus kolodkinae	Kim BY et al., 2021
+Zlac.d101g	Zlac	d101g	Zaprionus lachaisei	Kim BY et al., 2021
+Znig.d101g	Znig	d101g	Zaprionus nigranus	Kim BY et al., 2021
+Zorn.d101g	Zorn	d101g	Zaprionus ornatus	Kim BY et al., 2021
+Ztar.d101g	Ztar	d101g	Zaprionus taronus	Kim BY et al., 2021
+Ztsa.d101g	Ztsa	d101g	Zaprionus tsacasi	Kim BY et al., 2021
+Ztsa.d101g_car7-4	Ztsa	d101g_car7-4	Zaprionus tsacasi	Kim BY et al., 2021
+Zvit.d101g	Zvit	d101g	Zaprionus vittiger	Kim BY et al., 2021
