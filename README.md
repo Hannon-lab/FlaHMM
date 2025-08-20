@@ -57,7 +57,7 @@ Running FlaHMM with the command above would give the following results
 ```
 $ python FlaHMM.py  --species Dmel.dm6 --bins 5 --threshold .025
 =========================================================================================
-FlaHMM v0.9.1-beta
+FlaHMM v1.0.0
 
 A tool for flam-like cluster predictions based on LTR/Gypsy transposon content.
 
@@ -126,8 +126,8 @@ and ensure that the BED-like files have [the following format](examples/make_bin
 
 ### Citation
 
-If you find FlaHMM useful for your research, please consider citing it:
+If you find FlaHMM useful for your research, please cite:
 
 FlaHMM: unistrand *flamenco*-like piRNA cluster prediction in *Drosophila* species using hidden Markov models<br>
 Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv<br>
-*bioRxiv* 2024.05.14.592433; doi: [https://doi.org/10.1101/2024.05.14.592433](https://doi.org/10.1101/2024.05.14.592433)
+*NAR Genomics and Bioinformatics* 6:3:lqae119; doi: [https://doi.org/10.1093/nargab/lqae119](https://doi.org/10.1093/nargab/lqae119)
