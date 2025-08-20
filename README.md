@@ -130,4 +130,4 @@ If you find FlaHMM useful for your research, please cite:
 
 FlaHMM: unistrand *flamenco*-like piRNA cluster prediction in *Drosophila* species using hidden Markov models<br>
 Maria-Anna Trapotsi, Jasper van Lopik, Gregory J Hannon, Benjamin Czech Nicholson, Susanne Bornelöv<br>
-*NAR Genomics and Bioinformatics* 6:3:lqae119; doi: [https://doi.org/10.1093/nargab/lqae119](https://doi.org/10.1093/nargab/lqae119)
+*NAR Genomics and Bioinformatics* 6:3:lqae119, 2024; doi: [https://doi.org/10.1093/nargab/lqae119](https://doi.org/10.1093/nargab/lqae119)
